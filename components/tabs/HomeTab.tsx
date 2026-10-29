@@ -6,6 +6,7 @@
 import { CalendarDays, Clock, MapPin, Trophy, QrCode } from "lucide-react";
 import Countdown from "@/components/Countdown";
 import ImagePlaceholder from "@/components/ImagePlaceholder";
+import Image from "next/image";
 import {
   EVENT_NAME,
   EVENT_TAGLINE,
@@ -16,7 +17,10 @@ import {
   EVENT_VENUE_TEXT,
   REGISTER_URL,
   SPEAKERS,
+  LOCATION,
+  POSTERS,
   PRIZES,
+  EXCLUSIVE_PRIZE,
   type TabId,
 } from "@/lib/eventData";
 
@@ -92,6 +96,73 @@ export default function HomeTab({ onNavigate }: { onNavigate: (tab: TabId) => vo
         </div>
       </section>
 
+      {/* ================= LOCATION ================= */}
+      <section>
+        <h2 className="font-display text-3xl sm:text-4xl">
+          Find us at ROOT Cove
+        </h2>
+
+        <div className="mt-6 grid gap-6 md:grid-cols-2">
+          <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem]">
+            <Image
+              src={LOCATION.image}
+              alt={LOCATION.name}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
+          </div>
+
+          <div className="flex flex-col justify-center">
+            <p className="text-lg font-medium">{LOCATION.name}</p>
+            <p className="mt-2 leading-relaxed text-moss">
+              {LOCATION.description}
+            </p>
+
+            <div className="mt-6 overflow-hidden rounded-2xl bg-white/70 shadow-sm">
+              <video
+                controls
+                className="aspect-video w-full"
+                poster="/images/location/[video-poster].jpg"
+              >
+                <source src={LOCATION.video} type="video/mp4" />
+                [Video fallback text]
+              </video>
+            </div>
+
+            <p className="mt-2 text-sm text-moss">
+              [Video caption or directions note]
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ================= POSTERS ================= */}
+      <section>
+        <h2 className="font-display text-3xl sm:text-4xl">
+          [Posters section title]
+        </h2>
+
+        <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {POSTERS.map((poster) => (
+            <div
+              key={poster.id}
+              className="overflow-hidden rounded-3xl bg-white/70 shadow-sm"
+            >
+              <div className="relative aspect-[3/4]">
+                <Image
+                  src={poster.image}
+                  alt={poster.alt}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* ================= SPEAKERS ================= */}
       <section>
         <h2 className="font-display text-3xl sm:text-4xl">Speakers</h2>
@@ -110,19 +181,57 @@ export default function HomeTab({ onNavigate }: { onNavigate: (tab: TabId) => vo
       <section>
         <h2 className="flex items-center gap-3 font-display text-3xl sm:text-4xl">
           <Trophy className="h-7 w-7 text-moss" aria-hidden="true" />
-          Prizes
+          [Prizes section title]
         </h2>
-        <div className="mt-6 grid gap-4 sm:grid-cols-3">
-          {/* Each prize card gets a different soft colour from this list */}
-          {PRIZES.map((prize, index) => (
-            <div
-              key={index}
-              className={`rounded-3xl p-6 ${["bg-peach/70", "bg-lavender/70", "bg-lagoon/70"][index % 3]}`}
+
+        {/* Image display panel */}
+        <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {PRIZES.map((prize) => (
+            <article
+              key={prize.image}
+              className="overflow-hidden rounded-3xl bg-white/70 shadow-sm"
             >
-              <p className="font-display text-2xl">{prize.place}</p>
-              <p className="mt-2 text-moss">{prize.detail}</p>
-            </div>
+              <div className="relative aspect-[4/3]">
+                <Image
+                  src={prize.image}
+                  alt={prize.alt}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
+              </div>
+
+              <div className="p-5">
+                <h3 className="font-display text-2xl">{prize.title}</h3>
+                <p className="mt-2 text-moss">{prize.detail}</p>
+              </div>
+            </article>
           ))}
+        </div>
+
+        {/* Exclusive prize bar */}
+        <div className="mt-8 flex flex-col gap-5 rounded-3xl bg-pine p-5 text-mist sm:flex-row sm:items-center">
+          <div className="relative h-28 w-full shrink-0 overflow-hidden rounded-2xl sm:w-40">
+            <Image
+              src={EXCLUSIVE_PRIZE.image}
+              alt={EXCLUSIVE_PRIZE.alt}
+              fill
+              className="object-cover"
+              sizes="160px"
+            />
+          </div>
+
+          <div>
+            <p className="text-sm uppercase tracking-wide text-sage">
+              [Exclusive prize label]
+            </p>
+            <h3 className="mt-1 font-display text-2xl">
+              {EXCLUSIVE_PRIZE.title}
+            </h3>
+            <p className="mt-2 text-sage">
+              {EXCLUSIVE_PRIZE.condition}
+            </p>
+          </div>
         </div>
       </section>
 

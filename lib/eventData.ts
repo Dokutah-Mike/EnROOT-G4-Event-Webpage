@@ -41,12 +41,56 @@ export const SPEAKERS = [
   { name: "[Speaker 3 Name]", role: "[Title / Topic]" },
 ];
 
-// ---------- Prizes ----------
-export const PRIZES = [
-  { place: "[1st Prize]", detail: "[Prize description]" },
-  { place: "[2nd Prize]", detail: "[Prize description]" },
-  { place: "[3rd Prize]", detail: "[Prize description]" },
+// ---------- Location ----------
+export const LOCATION = {
+  image: "/images/location/Location-image.jpg",
+  name: "[Location name, e.g. ROOT Cove]",
+  description: "[One-line location description]",
+  video: "/videos/[directions-video].mp4",
+};
+
+// ---------- Posters ----------
+export const POSTERS = [
+  {
+    id: 1,
+    image: "/images/posters/[poster-1].jpg",
+    alt: "[Poster 1 description]",
+  },
+  {
+    id: 2,
+    image: "/images/posters/[poster-2].jpg",
+    alt: "[Poster 2 description]",
+  },
 ];
+
+// ---------- Prize image panel ----------
+export const PRIZES = [
+  {
+    image: "/images/prizes/[prize-1].jpg",
+    alt: "[Prize image 1 description]",
+    title: "[Prize 1 title]",
+    detail: "[Prize 1 description]",
+  },
+  {
+    image: "/images/prizes/[prize-2].jpg",
+    alt: "[Prize image 2 description]",
+    title: "[Prize 2 title]",
+    detail: "[Prize 2 description]",
+  },
+  {
+    image: "/images/prizes/[prize-3].jpg",
+    alt: "[Prize image 3 description]",
+    title: "[Prize 3 title]",
+    detail: "[Prize 3 description]",
+  },
+];
+
+export const EXCLUSIVE_PRIZE = {
+  image: "/images/prizes/[exclusive-prize].jpg",
+  alt: "[Exclusive prize image description]",
+  title: "[Exclusive prize title]",
+  condition: "[Condition required to win the exclusive prize]",
+};
 
 // ---------- Booths (exactly 5 placeholders) ----------
 export const BOOTHS = [
