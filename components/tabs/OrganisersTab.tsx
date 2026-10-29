@@ -1,0 +1,27 @@
+// components/tabs/OrganisersTab.tsx
+// The "Organisers" tab: a responsive grid of placeholder organiser cards.
+
+import ImagePlaceholder from "@/components/ImagePlaceholder";
+import { ORGANISERS, UNIVERSITY_NAME } from "@/lib/eventData";
+
+export default function OrganisersTab() {
+  return (
+    <section>
+      <h1 className="font-display text-4xl sm:text-5xl">Organisers</h1>
+      <p className="mt-3 max-w-prose text-moss">
+        [Short intro about the organising team or society: {UNIVERSITY_NAME}]
+      </p>
+
+      {/* 1 column on phones, 2 on tablets, 4 on large screens */}
+      <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        {ORGANISERS.map((person, index) => (
+          <div key={index} className="rounded-3xl bg-white/70 p-6 text-center shadow-sm">
+            <ImagePlaceholder label="Organiser photo" className="mx-auto aspect-square w-32 rounded-full" />
+            <p className="mt-4 font-medium">{person.name}</p>
+            <p className="text-sm text-moss">{person.role}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}

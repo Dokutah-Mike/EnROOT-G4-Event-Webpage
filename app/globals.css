@@ -1,0 +1,70 @@
+/* ==========================================================================
+   app/globals.css
+   Global styles. Loaded once by app/layout.tsx and applies to every page.
+   ========================================================================== */
+
+/* Loads Tailwind CSS (v4 style, the default in new Next.js apps). */
+@import "tailwindcss";
+
+/* --------------------------------------------------------------------------
+   THEME TOKENS
+   Defining colours/fonts here lets us use classes like `bg-pine`, `text-sage`
+   and `font-display` anywhere in the app. Change a hex value here and the
+   whole site updates.
+   -------------------------------------------------------------------------- */
+@theme inline {
+  --color-pine: #1f3a37;      /* deep green: text, dark buttons          */
+  --color-moss: #3f6b5e;      /* mid green: secondary text, hover states */
+  --color-sage: #a9c5b5;      /* soft green: accents, borders            */
+  --color-mist: #eef4f1;      /* very pale green: page background        */
+  --color-lagoon: #cfe3e6;    /* pale blue: decorative blobs, cards      */
+  --color-lavender: #dcd6f0;  /* pale purple: decorative blobs, cards    */
+  --color-peach: #f6d8c3;     /* warm peach: highlights                  */
+
+  /* These variables are created by next/font in app/layout.tsx */
+  --font-display: var(--font-fraunces), Georgia, serif;
+  --font-sans: var(--font-dm-sans), system-ui, sans-serif;
+}
+
+/* Base page look: pale green background with a soft colour wash on top. */
+body {
+  color: var(--color-pine);
+  font-family: var(--font-sans);
+  background-color: var(--color-mist);
+  background-image:
+    radial-gradient(60rem 40rem at 10% -10%, rgb(207 227 230 / 0.7), transparent 60%),
+    radial-gradient(50rem 35rem at 100% 10%, rgb(220 214 240 / 0.6), transparent 60%);
+  background-attachment: fixed;
+}
+
+/* --------------------------------------------------------------------------
+   ANIMATIONS
+   -------------------------------------------------------------------------- */
+
+/* "Breathing" effect: slowly grows and shrinks, like a calm breath.
+   Used on the intro screen and behind the hero heading. */
+@keyframes breathe {
+  0%, 25%, 50%, 75%, 100% { transform: scale(0.92); opacity: 0.70; }
+  12%, 37%, 62%, 87% { transform: scale(1.00); opacity: 1; }
+}
+.breathe {
+  animation: breathe 7s ease-in-out infinite;
+}
+
+/* Gentle fade-in used when the user switches tabs. */
+@keyframes tab-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.tab-in {
+  animation: tab-in 0.45s ease-out both;
+}
+
+/* Accessibility: if the visitor's device asks for less motion,
+   switch the continuous animations off. */
+@media (prefers-reduced-motion: reduce) {
+  .breathe,
+  .tab-in {
+    animation: none;
+  }
+}
