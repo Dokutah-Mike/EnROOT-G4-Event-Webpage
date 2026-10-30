@@ -5,7 +5,7 @@
 
 import { useState } from "react";
 import { MapPin } from "lucide-react";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
+import Image from "next/image";
 import { BOOTHS } from "@/lib/eventData";
 
 export default function BoothsTab() {
@@ -19,7 +19,7 @@ export default function BoothsTab() {
     <section>
       <h1 className="font-display text-4xl sm:text-5xl">Event booths</h1>
       <p className="mt-3 max-w-prose text-moss">
-        [Short intro about the booths. Pick one to see what is happening there.]
+        Explore the event booths below. Click on a booth to see its details
       </p>
 
       <div className="mt-8 grid gap-6 md:grid-cols-[16rem_1fr]">
@@ -43,7 +43,15 @@ export default function BoothsTab() {
 
         {/* DETAIL PANEL for the selected booth */}
         <article className="overflow-hidden rounded-[2rem] bg-white/70 shadow-sm" role="tabpanel">
-          <ImagePlaceholder label={`${booth.name} photo`} className="aspect-[16/7] w-full" />
+          <div className="relative aspect-[16/7] w-full">
+            <Image
+              src={booth.image}
+              alt={`${booth.name} photo`}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 70vw"
+            />
+          </div>
           <div className="p-6 sm:p-8">
             <h2 className="font-display text-3xl">{booth.name}</h2>
             <p className="mt-2 flex items-center gap-2 text-sm text-moss">
@@ -51,15 +59,7 @@ export default function BoothsTab() {
               {booth.location}
             </p>
             <p className="mt-4 max-w-prose leading-relaxed">{booth.description}</p>
-
-            <h3 className="mt-6 font-medium">Activities</h3>
-            <ul className="mt-2 flex flex-wrap gap-2">
-              {booth.activities.map((activity, index) => (
-                <li key={index} className="rounded-full bg-lavender/70 px-4 py-1 text-sm">
-                  {activity}
-                </li>
-              ))}
-            </ul>
+            
           </div>
         </article>
       </div>

@@ -94,16 +94,16 @@ export const EXCLUSIVE_PRIZE = {
 
 // ---------- Booths (exactly 5 placeholders) ----------
 export const BOOTHS = [
-  { id: 1, name: "[Booth 1 Name]", description: "[What happens at this booth]", location: "[Booth location]", activities: ["[Activity 1]", "[Activity 2]"] },
-  { id: 2, name: "[Booth 2 Name]", description: "[What happens at this booth]", location: "[Booth location]", activities: ["[Activity 1]", "[Activity 2]"] },
-  { id: 3, name: "[Booth 3 Name]", description: "[What happens at this booth]", location: "[Booth location]", activities: ["[Activity 1]", "[Activity 2]"] },
-  { id: 4, name: "[Booth 4 Name]", description: "[What happens at this booth]", location: "[Booth location]", activities: ["[Activity 1]", "[Activity 2]"] },
-  { id: 5, name: "[Booth 5 Name]", description: "[What happens at this booth]", location: "[Booth location]", activities: ["[Activity 1]", "[Activity 2]"] },
+  { id: 1, name: "DoomScrolling", description: "Participants can casually unwind and browse TikTok or Instagram. Every 30 minutes or so, the station master will run a bingo game.", location: "Level 1", image: "/images/booths/booth1.jpg" },
+  { id: 2, name: "Paper Crafts", description: "Participants fold origami shapes and learn how to make pop-up cards. The station master will hand out paper.", location: "Level 1", image: "/images/booths/booth2.jpg" },
+  { id: 3, name: "Paracord Making", description: "Participants learn how to tie rope into a paracord that can be attached to their water bottle. A station master will guide participants through the process.", location: "Level 2", image: "/images/booths/booth3.jpg" },
+  { id: 4, name: "Slime Making", description: "Participants make their own slime under the guidance of the station master", location: "Level 2", image: "/images/booths/booth4.jpg" },
+  { id: 5, name: "F&B", description: "Participants who take part in 2 or more stations (with proof of participation) can claim a snack and a beverage. Bingo winners can also claim a lollipop. The station master will distribute all F&B", location: "Level 1", image: "/images/booths/booth5.jpg" },
 ];
 
 // ---------- Organisers ----------
 export const ORGANISERS = [
-  { name: "[Organiser 1 Name]", role: "[Role]" },
+  { name: "Kim Seongyong (Mike)", role: "Project Director" },
   { name: "[Organiser 2 Name]", role: "[Role]" },
   { name: "[Organiser 3 Name]", role: "[Role]" },
   { name: "[Organiser 4 Name]", role: "[Role]" },

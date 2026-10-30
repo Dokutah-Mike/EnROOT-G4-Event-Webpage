@@ -703,29 +703,6 @@ function BoothsTab() {
                                         fileName: "[project]/components/tabs/BoothsTab.tsx",
                                         lineNumber: 53,
                                         columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "mt-6 font-medium",
-                                        children: "Activities"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/tabs/BoothsTab.tsx",
-                                        lineNumber: 55,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                        className: "mt-2 flex flex-wrap gap-2",
-                                        children: booth.activities.map((activity, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: "rounded-full bg-lavender/70 px-4 py-1 text-sm",
-                                                children: activity
-                                            }, index, false, {
-                                                fileName: "[project]/components/tabs/BoothsTab.tsx",
-                                                lineNumber: 58,
-                                                columnNumber: 17
-                                            }, this))
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/tabs/BoothsTab.tsx",
-                                        lineNumber: 56,
-                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
@@ -1651,16 +1628,14 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/components/tabs/OrganisersTab.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// components/tabs/OrganisersTab.tsx
+// The "Organisers" tab: a responsive grid of placeholder organiser cards.
 __turbopack_context__.s([
     "default",
     ()=>OrganisersTab
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-// components/tabs/OrganisersTab.tsx
-// The "Organisers" tab: a responsive grid of placeholder organiser cards.
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ImagePlaceholder$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ImagePlaceholder.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/eventData.ts [app-client] (ecmascript)");
-;
 ;
 ;
 function OrganisersTab() {
@@ -1677,9 +1652,8 @@ function OrganisersTab() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "mt-3 max-w-prose text-moss",
                 children: [
-                    "[Short intro about the organising team or society: ",
                     __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["UNIVERSITY_NAME"],
-                    "]"
+                    " aims to provide a chill environment for students to relax after midterms."
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/tabs/OrganisersTab.tsx",
@@ -1691,14 +1665,6 @@ function OrganisersTab() {
                 children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ORGANISERS"].map((person, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "rounded-3xl bg-white/70 p-6 text-center shadow-sm",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ImagePlaceholder$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                label: "Organiser photo",
-                                className: "mx-auto aspect-square w-32 rounded-full"
-                            }, void 0, false, {
-                                fileName: "[project]/components/tabs/OrganisersTab.tsx",
-                                lineNumber: 19,
-                                columnNumber: 13
-                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "mt-4 font-medium",
                                 children: person.name
@@ -1866,59 +1832,44 @@ const EXCLUSIVE_PRIZE = {
 const BOOTHS = [
     {
         id: 1,
-        name: "[Booth 1 Name]",
-        description: "[What happens at this booth]",
-        location: "[Booth location]",
-        activities: [
-            "[Activity 1]",
-            "[Activity 2]"
-        ]
+        name: "DoomScrolling",
+        description: "Participants can casually unwind and browse TikTok or Instagram. Every 30 minutes or so, the station master will run a bingo game.",
+        location: "Level 1",
+        image: "/images/booths/booth1.jpg"
     },
     {
         id: 2,
-        name: "[Booth 2 Name]",
-        description: "[What happens at this booth]",
-        location: "[Booth location]",
-        activities: [
-            "[Activity 1]",
-            "[Activity 2]"
-        ]
+        name: "Paper Crafts",
+        description: "Participants fold origami shapes and learn how to make pop-up cards. The station master will hand out paper.",
+        location: "Level 1",
+        image: "/images/booths/booth2.jpg"
     },
     {
         id: 3,
-        name: "[Booth 3 Name]",
-        description: "[What happens at this booth]",
-        location: "[Booth location]",
-        activities: [
-            "[Activity 1]",
-            "[Activity 2]"
-        ]
+        name: "Paracord Making",
+        description: "Participants learn how to tie rope into a paracord that can be attached to their water bottle. A station master will guide participants through the process.",
+        location: "Level 2",
+        image: "/images/booths/booth3.jpg"
     },
     {
         id: 4,
-        name: "[Booth 4 Name]",
-        description: "[What happens at this booth]",
-        location: "[Booth location]",
-        activities: [
-            "[Activity 1]",
-            "[Activity 2]"
-        ]
+        name: "Slime Making",
+        description: "Participants make their own slime under the guidance of the station master",
+        location: "Level 2",
+        image: "/images/booths/booth4.jpg"
     },
     {
         id: 5,
-        name: "[Booth 5 Name]",
-        description: "[What happens at this booth]",
-        location: "[Booth location]",
-        activities: [
-            "[Activity 1]",
-            "[Activity 2]"
-        ]
+        name: "F&B",
+        description: "Participants who take part in 2 or more stations (with proof of participation) can claim a snack and a beverage. Bingo winners can also claim a lollipop. The station master will distribute all F&B",
+        location: "Level 1",
+        image: "/images/booths/booth5.jpg"
     }
 ];
 const ORGANISERS = [
     {
-        name: "[Organiser 1 Name]",
-        role: "[Role]"
+        name: "Kim Seongyong (Mike)",
+        role: "Project Director"
     },
     {
         name: "[Organiser 2 Name]",

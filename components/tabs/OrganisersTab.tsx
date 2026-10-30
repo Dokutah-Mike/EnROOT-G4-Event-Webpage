@@ -9,14 +9,14 @@ export default function OrganisersTab() {
     <section>
       <h1 className="font-display text-4xl sm:text-5xl">Organisers</h1>
       <p className="mt-3 max-w-prose text-moss">
-        [Short intro about the organising team or society: {UNIVERSITY_NAME}]
+        {UNIVERSITY_NAME} aims to provide a chill environment for students to relax after midterms.
       </p>
 
       {/* 1 column on phones, 2 on tablets, 4 on large screens */}
       <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {ORGANISERS.map((person, index) => (
           <div key={index} className="rounded-3xl bg-white/70 p-6 text-center shadow-sm">
-            <ImagePlaceholder label="Organiser photo" className="mx-auto aspect-square w-32 rounded-full" />
+            {/* Image placeholder was removed */}
             <p className="mt-4 font-medium">{person.name}</p>
             <p className="text-sm text-moss">{person.role}</p>
           </div>
