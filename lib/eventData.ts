@@ -112,12 +112,11 @@ export const ORGANISERS = [
 // ---------- Contact / Help ----------
 export const CONTACT = {
   email: "seongyong_kim@mymail.sutd.edu.sg",
-  phone: "[Phone number]",
-  social: "[@social_handle]",
+  tele: "@Dokutah_Mike",
 };
 
 export const FAQS = [
-  { question: "[Question 1]", answer: "[Answer 1]" },
-  { question: "[Question 2]", answer: "[Answer 2]" },
-  { question: "[Question 3]", answer: "[Answer 3]" },
+  { question: "Who can participate?", answer: "All Freshmore students are welcome to participate, bring your friends!" },
+  { question: "Can I bring home my crafts?", answer: "Yes, you can take your completed crafts home with you." },
+  { question: "Can I really doomscroll?", answer: "Of course! Just make sure to take breaks, stay hydrated and keep content safe." },
 ];

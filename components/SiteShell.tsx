@@ -31,7 +31,7 @@ export default function SiteShell() {
       </main>
 
       <footer className="border-t border-sage/50 px-4 py-6 text-center text-sm text-moss">
-        {EVENT_NAME} · {UNIVERSITY_NAME} · [Year]
+        {EVENT_NAME} · {UNIVERSITY_NAME} · 2026
       </footer>
     </div>
   );

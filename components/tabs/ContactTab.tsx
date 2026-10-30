@@ -11,15 +11,14 @@ export default function ContactTab() {
   // The three contact cards.
   const contactItems = [
     { icon: Mail, label: "Email", value: CONTACT.email },
-    { icon: Phone, label: "Phone", value: CONTACT.phone },
-    { icon: AtSign, label: "Social media", value: CONTACT.social },
+    { icon: Phone, label: "Telegram", value: CONTACT.tele },
   ];
 
   return (
     <section>
       <h1 className="font-display text-4xl sm:text-5xl">Contact / Help</h1>
       <p className="mt-3 max-w-prose text-moss">
-        [Short message about how to get help before or during the event.]
+        If you have any questions or need assistance, feel free to reach out to us via email or Telegram.
       </p>
 
       {/* CONTACT CARDS */}
