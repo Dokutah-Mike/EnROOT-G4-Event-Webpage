@@ -999,27 +999,27 @@ function HomeTab({ onNavigate }) {
                                 className: "breathe absolute left-1/2 top-1/2 h-[26rem] w-[26rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-lagoon blur-3xl sm:h-[34rem] sm:w-[34rem]"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 41,
+                                lineNumber: 40,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "breathe absolute -left-10 top-4 h-48 w-48 rounded-full bg-lavender blur-3xl"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 42,
+                                lineNumber: 41,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "breathe absolute -right-10 bottom-4 h-48 w-48 rounded-full bg-peach blur-3xl"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 43,
+                                lineNumber: 42,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 40,
+                        lineNumber: 39,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1027,7 +1027,7 @@ function HomeTab({ onNavigate }) {
                         children: "Midterms are over. Time to unwind."
                     }, void 0, false, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 46,
+                        lineNumber: 45,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -1035,7 +1035,7 @@ function HomeTab({ onNavigate }) {
                         children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EVENT_NAME"]
                     }, void 0, false, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 47,
+                        lineNumber: 46,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1043,7 +1043,7 @@ function HomeTab({ onNavigate }) {
                         children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EVENT_TAGLINE"]
                     }, void 0, false, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 50,
+                        lineNumber: 49,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1052,12 +1052,12 @@ function HomeTab({ onNavigate }) {
                             targetDate: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EVENT_DATE_ISO"]
                         }, void 0, false, {
                             fileName: "[project]/components/tabs/HomeTab.tsx",
-                            lineNumber: 54,
+                            lineNumber: 53,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 53,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1069,7 +1069,7 @@ function HomeTab({ onNavigate }) {
                                 children: "Register now"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 59,
+                                lineNumber: 58,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1079,19 +1079,19 @@ function HomeTab({ onNavigate }) {
                                 children: "Explore booths"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 65,
+                                lineNumber: 64,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 58,
+                        lineNumber: 57,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                lineNumber: 38,
+                lineNumber: 37,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1107,12 +1107,12 @@ function HomeTab({ onNavigate }) {
                                     "aria-hidden": "true"
                                 }, void 0, false, {
                                     fileName: "[project]/components/tabs/HomeTab.tsx",
-                                    lineNumber: 80,
+                                    lineNumber: 79,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 79,
+                                lineNumber: 78,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1122,7 +1122,7 @@ function HomeTab({ onNavigate }) {
                                         children: label
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 83,
+                                        lineNumber: 82,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1130,24 +1130,24 @@ function HomeTab({ onNavigate }) {
                                         children: value
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 84,
+                                        lineNumber: 83,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 82,
+                                lineNumber: 81,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, label, true, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 78,
+                        lineNumber: 77,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                lineNumber: 76,
+                lineNumber: 75,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1158,7 +1158,7 @@ function HomeTab({ onNavigate }) {
                         className: "aspect-[4/3] rounded-[2rem]"
                     }, void 0, false, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 92,
+                        lineNumber: 91,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1168,7 +1168,7 @@ function HomeTab({ onNavigate }) {
                                 children: "About the event"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 94,
+                                lineNumber: 93,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1176,29 +1176,29 @@ function HomeTab({ onNavigate }) {
                                 children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EVENT_DESCRIPTION"]
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 95,
+                                lineNumber: 94,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 93,
+                        lineNumber: 92,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                lineNumber: 91,
+                lineNumber: 90,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                         className: "font-display text-3xl sm:text-4xl",
-                        children: "Find us at ROOT Cove"
+                        children: "Location"
                     }, void 0, false, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 101,
+                        lineNumber: 100,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1214,12 +1214,12 @@ function HomeTab({ onNavigate }) {
                                     sizes: "(max-width: 768px) 100vw, 50vw"
                                 }, void 0, false, {
                                     fileName: "[project]/components/tabs/HomeTab.tsx",
-                                    lineNumber: 107,
+                                    lineNumber: 106,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 106,
+                                lineNumber: 105,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1230,7 +1230,7 @@ function HomeTab({ onNavigate }) {
                                         children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["LOCATION"].name
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 117,
+                                        lineNumber: 116,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1238,12 +1238,15 @@ function HomeTab({ onNavigate }) {
                                         children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["LOCATION"].description
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 118,
+                                        lineNumber: 117,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "mt-6 overflow-hidden rounded-2xl bg-white/70 shadow-sm",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
+                                            autoPlay: true,
+                                            muted: true,
+                                            playsInline: true,
                                             controls: true,
                                             className: "aspect-video w-full",
                                             poster: "/images/location/[video-poster].jpg",
@@ -1253,45 +1256,45 @@ function HomeTab({ onNavigate }) {
                                                     type: "video/mp4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/tabs/HomeTab.tsx",
-                                                    lineNumber: 128,
+                                                    lineNumber: 130,
                                                     columnNumber: 17
                                                 }, this),
-                                                "[Video fallback text]"
+                                                "Your browser does not support the video tag."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/tabs/HomeTab.tsx",
-                                            lineNumber: 123,
+                                            lineNumber: 122,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 122,
+                                        lineNumber: 121,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "mt-2 text-sm text-moss",
-                                        children: "[Video caption or directions note]"
+                                        children: "Video tutorial on how to get to ROOT Cove"
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 133,
+                                        lineNumber: 135,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 116,
+                                lineNumber: 115,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 105,
+                        lineNumber: 104,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                lineNumber: 100,
+                lineNumber: 99,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1301,7 +1304,7 @@ function HomeTab({ onNavigate }) {
                         children: "[Posters section title]"
                     }, void 0, false, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 142,
+                        lineNumber: 144,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1318,84 +1321,28 @@ function HomeTab({ onNavigate }) {
                                         sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 153,
+                                        lineNumber: 155,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/tabs/HomeTab.tsx",
-                                    lineNumber: 152,
+                                    lineNumber: 154,
                                     columnNumber: 15
                                 }, this)
                             }, poster.id, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 148,
+                                lineNumber: 150,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 146,
+                        lineNumber: 148,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                lineNumber: 141,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "font-display text-3xl sm:text-4xl",
-                        children: "Speakers"
-                    }, void 0, false, {
-                        fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 168,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mt-6 grid gap-6 sm:grid-cols-3",
-                        children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SPEAKERS"].map((speaker, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "text-center",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ImagePlaceholder$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        label: "Speaker photo",
-                                        className: "mx-auto aspect-square w-40 rounded-full"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 172,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "mt-3 font-medium",
-                                        children: speaker.name
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 173,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-sm text-moss",
-                                        children: speaker.role
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 174,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, index, true, {
-                                fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 171,
-                                columnNumber: 13
-                            }, this))
-                    }, void 0, false, {
-                        fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 169,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/tabs/HomeTab.tsx",
-                lineNumber: 167,
+                lineNumber: 143,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1408,14 +1355,14 @@ function HomeTab({ onNavigate }) {
                                 "aria-hidden": "true"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 183,
+                                lineNumber: 171,
                                 columnNumber: 11
                             }, this),
                             "[Prizes section title]"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 182,
+                        lineNumber: 170,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1433,12 +1380,12 @@ function HomeTab({ onNavigate }) {
                                             sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                                         }, void 0, false, {
                                             fileName: "[project]/components/tabs/HomeTab.tsx",
-                                            lineNumber: 195,
+                                            lineNumber: 183,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 194,
+                                        lineNumber: 182,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1449,7 +1396,7 @@ function HomeTab({ onNavigate }) {
                                                 children: prize.title
                                             }, void 0, false, {
                                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                                lineNumber: 205,
+                                                lineNumber: 193,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1457,24 +1404,24 @@ function HomeTab({ onNavigate }) {
                                                 children: prize.detail
                                             }, void 0, false, {
                                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                                lineNumber: 206,
+                                                lineNumber: 194,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 204,
+                                        lineNumber: 192,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, prize.image, true, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 190,
+                                lineNumber: 178,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 188,
+                        lineNumber: 176,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1490,12 +1437,12 @@ function HomeTab({ onNavigate }) {
                                     sizes: "160px"
                                 }, void 0, false, {
                                     fileName: "[project]/components/tabs/HomeTab.tsx",
-                                    lineNumber: 215,
+                                    lineNumber: 203,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 214,
+                                lineNumber: 202,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1505,7 +1452,7 @@ function HomeTab({ onNavigate }) {
                                         children: "[Exclusive prize label]"
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 225,
+                                        lineNumber: 213,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1513,7 +1460,7 @@ function HomeTab({ onNavigate }) {
                                         children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EXCLUSIVE_PRIZE"].title
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 228,
+                                        lineNumber: 216,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1521,25 +1468,25 @@ function HomeTab({ onNavigate }) {
                                         children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EXCLUSIVE_PRIZE"].condition
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 231,
+                                        lineNumber: 219,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 224,
+                                lineNumber: 212,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 213,
+                        lineNumber: 201,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                lineNumber: 181,
+                lineNumber: 169,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1553,7 +1500,7 @@ function HomeTab({ onNavigate }) {
                                 children: "Ready to join us?"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 241,
+                                lineNumber: 229,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1561,7 +1508,7 @@ function HomeTab({ onNavigate }) {
                                 children: "[Short sign-up message, e.g. deadline or how to register]"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 242,
+                                lineNumber: 230,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1570,13 +1517,13 @@ function HomeTab({ onNavigate }) {
                                 children: "Register now"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 243,
+                                lineNumber: 231,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 240,
+                        lineNumber: 228,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1589,7 +1536,7 @@ function HomeTab({ onNavigate }) {
                                 "aria-hidden": "true"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 257,
+                                lineNumber: 245,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1597,25 +1544,25 @@ function HomeTab({ onNavigate }) {
                                 children: "[QR code]"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 258,
+                                lineNumber: 246,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 252,
+                        lineNumber: 240,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                lineNumber: 239,
+                lineNumber: 227,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/tabs/HomeTab.tsx",
-        lineNumber: 36,
+        lineNumber: 35,
         columnNumber: 5
     }, this);
 }
@@ -1760,8 +1707,6 @@ __turbopack_context__.s([
     ()=>PRIZES,
     "REGISTER_URL",
     ()=>REGISTER_URL,
-    "SPEAKERS",
-    ()=>SPEAKERS,
     "TABS",
     ()=>TABS,
     "UNIVERSITY_NAME",
@@ -1794,25 +1739,11 @@ const EVENT_DATE_TEXT = "4/11/2026";
 const EVENT_TIME_TEXT = "3:00p.m. - 6:00p.m.";
 const EVENT_VENUE_TEXT = "ROOT Cove (2.311A) @ SUTD Campus";
 const REGISTER_URL = "[Registation URL not released yet]";
-const SPEAKERS = [
-    {
-        name: "[Speaker 1 Name]",
-        role: "[Title / Topic]"
-    },
-    {
-        name: "[Speaker 2 Name]",
-        role: "[Title / Topic]"
-    },
-    {
-        name: "[Speaker 3 Name]",
-        role: "[Title / Topic]"
-    }
-];
 const LOCATION = {
     image: "/images/location/Location-image.jpg",
-    name: "[Location name, e.g. ROOT Cove]",
-    description: "[One-line location description]",
-    video: "/videos/[directions-video].mp4"
+    name: "ROOT Cove (2.311A)",
+    description: "A chill hangout place to destress",
+    video: "/videos/Directions-video.mp4"
 };
 const POSTERS = [
     {

@@ -34,19 +34,14 @@ export const EVENT_VENUE_TEXT = "ROOT Cove (2.311A) @ SUTD Campus";
 // Where the "Register now" button goes. Replace "#" with your sign-up link.
 export const REGISTER_URL = "[Registation URL not released yet]";
 
-// ---------- Speakers ----------
-export const SPEAKERS = [
-  { name: "[Speaker 1 Name]", role: "[Title / Topic]" },
-  { name: "[Speaker 2 Name]", role: "[Title / Topic]" },
-  { name: "[Speaker 3 Name]", role: "[Title / Topic]" },
-];
+
 
 // ---------- Location ----------
 export const LOCATION = {
   image: "/images/location/Location-image.jpg",
-  name: "[Location name, e.g. ROOT Cove]",
-  description: "[One-line location description]",
-  video: "/videos/[directions-video].mp4",
+  name: "ROOT Cove (2.311A)",
+  description: "A chill hangout place to destress",
+  video: "/videos/Directions-video.mp4",
 };
 
 // ---------- Posters ----------

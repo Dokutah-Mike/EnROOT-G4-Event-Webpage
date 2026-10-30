@@ -1,34 +1,23 @@
-{"timestamp":"00:00:00.757","source":"Server","level":"LOG","message":"- Cache Components enabled"}
-{"timestamp":"00:00:00.757","source":"Server","level":"LOG","message":"- Partial Prefetching enabled"}
-{"timestamp":"00:00:00.757","source":"Server","level":"LOG","message":"- Experiments (use with caution):"}
-{"timestamp":"00:00:00.757","source":"Server","level":"LOG","message":"  ✓ agentFeedback"}
-{"timestamp":"00:00:00.757","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:22.882","source":"Server","level":"LOG","message":"✓ Compiled in 18ms"}
-{"timestamp":"00:01:26.922","source":"Server","level":"LOG","message":"✓ Compiled in 8ms"}
-{"timestamp":"00:48:54.093","source":"Server","level":"LOG","message":"✓ Compiled in 17ms"}
-{"timestamp":"00:50:29.768","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
-{"timestamp":"00:53:12.679","source":"Server","level":"LOG","message":"✓ Compiled in 293ms"}
-{"timestamp":"00:53:12.947","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/location/[location-photo].jpg\" 404"}
-{"timestamp":"00:53:13.001","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/posters/[poster-1].jpg\" 404"}
-{"timestamp":"00:53:13.039","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/posters/[poster-2].jpg\" 404"}
-{"timestamp":"01:33:03.317","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/posters/[poster-2].jpg\" 404"}
-{"timestamp":"01:33:03.330","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/location/[location-photo].jpg\" 404"}
-{"timestamp":"01:33:03.346","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/posters/[poster-1].jpg\" 404"}
-{"timestamp":"01:33:11.788","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/location/[location-photo].jpg\" 404"}
-{"timestamp":"01:33:12.764","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/posters/[poster-1].jpg\" 404"}
-{"timestamp":"01:33:12.777","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/posters/[poster-2].jpg\" 404"}
-{"timestamp":"01:40:40.308","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/prizes/[prize-1].jpg\" 404"}
-{"timestamp":"01:40:40.323","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/prizes/[prize-2].jpg\" 404"}
-{"timestamp":"01:40:40.336","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/prizes/[prize-3].jpg\" 404"}
-{"timestamp":"01:40:41.265","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/prizes/[exclusive-prize].jpg\" 404"}
-{"timestamp":"01:41:29.896","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/location/[location-photo].jpg\" 404"}
-{"timestamp":"01:41:31.007","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/posters/[poster-1].jpg\" 404"}
-{"timestamp":"01:41:31.025","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/posters/[poster-2].jpg\" 404"}
-{"timestamp":"01:41:34.621","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/prizes/[prize-1].jpg\" 404"}
-{"timestamp":"01:41:34.637","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/prizes/[prize-2].jpg\" 404"}
-{"timestamp":"01:41:34.649","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/prizes/[prize-3].jpg\" 404"}
-{"timestamp":"01:41:35.601","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/prizes/[exclusive-prize].jpg\" 404"}
-{"timestamp":"02:02:48.530","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/location/[location-photo].jpg\" 404"}
-{"timestamp":"02:02:48.553","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/posters/[poster-1].jpg\" 404"}
-{"timestamp":"02:02:48.567","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/posters/[poster-2].jpg\" 404"}
-{"timestamp":"02:02:55.109","source":"Server","level":"LOG","message":"✓ Compiled in 69ms"}
+{"timestamp":"00:00:00.828","source":"Server","level":"LOG","message":"- Cache Components enabled"}
+{"timestamp":"00:00:00.828","source":"Server","level":"LOG","message":"- Partial Prefetching enabled"}
+{"timestamp":"00:00:00.828","source":"Server","level":"LOG","message":"- Experiments (use with caution):"}
+{"timestamp":"00:00:00.828","source":"Server","level":"LOG","message":"  ✓ agentFeedback"}
+{"timestamp":"00:00:00.828","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:03.284","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/posters/[poster-2].jpg\" 404"}
+{"timestamp":"00:00:03.317","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/posters/[poster-1].jpg\" 404"}
+{"timestamp":"00:00:29.471","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/prizes/[prize-1].jpg\" 404"}
+{"timestamp":"00:00:29.502","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/prizes/[prize-2].jpg\" 404"}
+{"timestamp":"00:00:29.526","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/prizes/[prize-3].jpg\" 404"}
+{"timestamp":"00:00:29.682","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/prizes/[exclusive-prize].jpg\" 404"}
+{"timestamp":"00:03:06.882","source":"Server","level":"LOG","message":"✓ Compiled in 20ms"}
+{"timestamp":"00:03:06.939","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/prizes/[prize-1].jpg\" 404"}
+{"timestamp":"00:03:06.970","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/prizes/[prize-2].jpg\" 404"}
+{"timestamp":"00:03:06.996","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/prizes/[prize-3].jpg\" 404"}
+{"timestamp":"00:03:07.023","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/prizes/[exclusive-prize].jpg\" 404"}
+{"timestamp":"00:03:21.401","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/posters/[poster-1].jpg\" 404"}
+{"timestamp":"00:03:21.423","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/posters/[poster-2].jpg\" 404"}
+{"timestamp":"00:03:29.303","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/prizes/[prize-1].jpg\" 404"}
+{"timestamp":"00:03:29.329","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/prizes/[prize-2].jpg\" 404"}
+{"timestamp":"00:03:29.350","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/prizes/[prize-3].jpg\" 404"}
+{"timestamp":"00:03:29.443","source":"Server","level":"ERROR","message":"⨯ \"internal image response failed for\" \"/images/prizes/[exclusive-prize].jpg\" 404"}
+{"timestamp":"00:05:00.982","source":"Server","level":"LOG","message":"✓ Compiled in 9ms"}

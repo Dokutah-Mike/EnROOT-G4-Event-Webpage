@@ -805,11 +805,6 @@
     background-color: #cfe3e6;
   }
 
-  .bg-lagoon\/70 {
-    background-color: #cfe3e6b3;
-    background-color: lab(88.8029% -6.43978 -3.85997 / .7);
-  }
-
   .bg-lavender {
     background-color: #dcd6f0;
   }
@@ -830,11 +825,6 @@
 
   .bg-peach {
     background-color: #f6d8c3;
-  }
-
-  .bg-peach\/70 {
-    background-color: #f6d8c3b3;
-    background-color: lab(88.4669% 8.38938 14.4193 / .7);
   }
 
   .bg-pine {

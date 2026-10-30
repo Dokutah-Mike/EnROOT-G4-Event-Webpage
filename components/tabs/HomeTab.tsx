@@ -16,7 +16,6 @@ import {
   EVENT_TIME_TEXT,
   EVENT_VENUE_TEXT,
   REGISTER_URL,
-  SPEAKERS,
   LOCATION,
   POSTERS,
   PRIZES,
@@ -99,7 +98,7 @@ export default function HomeTab({ onNavigate }: { onNavigate: (tab: TabId) => vo
       {/* ================= LOCATION ================= */}
       <section>
         <h2 className="font-display text-3xl sm:text-4xl">
-          Find us at ROOT Cove
+          Location
         </h2>
 
         <div className="mt-6 grid gap-6 md:grid-cols-2">
@@ -121,17 +120,20 @@ export default function HomeTab({ onNavigate }: { onNavigate: (tab: TabId) => vo
 
             <div className="mt-6 overflow-hidden rounded-2xl bg-white/70 shadow-sm">
               <video
+                autoPlay
+                muted
+                playsInline
                 controls
                 className="aspect-video w-full"
                 poster="/images/location/[video-poster].jpg"
               >
                 <source src={LOCATION.video} type="video/mp4" />
-                [Video fallback text]
+                Your browser does not support the video tag.
               </video>
             </div>
 
             <p className="mt-2 text-sm text-moss">
-              [Video caption or directions note]
+              Video tutorial on how to get to ROOT Cove
             </p>
           </div>
         </div>
@@ -158,20 +160,6 @@ export default function HomeTab({ onNavigate }: { onNavigate: (tab: TabId) => vo
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
               </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* ================= SPEAKERS ================= */}
-      <section>
-        <h2 className="font-display text-3xl sm:text-4xl">Speakers</h2>
-        <div className="mt-6 grid gap-6 sm:grid-cols-3">
-          {SPEAKERS.map((speaker, index) => (
-            <div key={index} className="text-center">
-              <ImagePlaceholder label="Speaker photo" className="mx-auto aspect-square w-40 rounded-full" />
-              <p className="mt-3 font-medium">{speaker.name}</p>
-              <p className="text-sm text-moss">{speaker.role}</p>
             </div>
           ))}
         </div>
