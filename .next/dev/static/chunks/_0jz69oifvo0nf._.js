@@ -951,7 +951,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/clock.mjs [app-client] (ecmascript) <export default as Clock>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/map-pin.mjs [app-client] (ecmascript) <export default as MapPin>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trophy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Trophy$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/trophy.mjs [app-client] (ecmascript) <export default as Trophy>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$qr$2d$code$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__QrCode$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/qr-code.mjs [app-client] (ecmascript) <export default as QrCode>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Countdown$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Countdown.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$dom$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react-dom/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
@@ -1456,7 +1455,7 @@ function HomeTab({ onNavigate }) {
                                 lineNumber: 272,
                                 columnNumber: 11
                             }, this),
-                            "[Prizes section title]"
+                            "Food and Rewards!"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
@@ -1545,20 +1544,12 @@ function HomeTab({ onNavigate }) {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-sm uppercase tracking-wide text-sage",
-                                        children: "[Exclusive prize label]"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 314,
-                                        columnNumber: 13
-                                    }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         className: "mt-1 font-display text-2xl",
                                         children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EXCLUSIVE_PRIZE"].title
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 317,
+                                        lineNumber: 314,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1566,7 +1557,7 @@ function HomeTab({ onNavigate }) {
                                         children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EXCLUSIVE_PRIZE"].condition
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 320,
+                                        lineNumber: 317,
                                         columnNumber: 13
                                     }, this)
                                 ]
@@ -1598,15 +1589,15 @@ function HomeTab({ onNavigate }) {
                                 children: "Ready to join us?"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 330,
+                                lineNumber: 327,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "mt-3 text-sage",
-                                children: "[Short sign-up message, e.g. deadline or how to register]"
+                                children: "Please scan the QR to help us guage numbers! :D"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 331,
+                                lineNumber: 328,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1615,46 +1606,37 @@ function HomeTab({ onNavigate }) {
                                 children: "Register now"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 332,
+                                lineNumber: 329,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 329,
+                        lineNumber: 326,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex h-40 w-40 shrink-0 flex-col items-center justify-center gap-2 rounded-2xl bg-mist text-pine",
-                        role: "img",
-                        "aria-label": "Placeholder for registration QR code",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$qr$2d$code$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__QrCode$3e$__["QrCode"], {
-                                className: "h-14 w-14",
-                                "aria-hidden": "true"
-                            }, void 0, false, {
-                                fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 346,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-xs",
-                                children: "[QR code]"
-                            }, void 0, false, {
-                                fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 347,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                        className: "relative h-40 w-40 shrink-0 overflow-hidden rounded-2xl bg-white p-2",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$image$2d$component$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__Image__as__default$3e$__["default"], {
+                            src: "/images/regQR.png",
+                            alt: "Scan QR code to register for the event",
+                            fill: true,
+                            className: "object-contain p-2",
+                            sizes: "160px"
+                        }, void 0, false, {
+                            fileName: "[project]/components/tabs/HomeTab.tsx",
+                            lineNumber: 339,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 341,
+                        lineNumber: 338,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                lineNumber: 328,
+                lineNumber: 325,
                 columnNumber: 7
             }, this)
         ]
@@ -1837,7 +1819,7 @@ const EVENT_DATE_ISO = "2026-11-04T15:00:00";
 const EVENT_DATE_TEXT = "4/11/2026";
 const EVENT_TIME_TEXT = "3:00p.m. - 6:00p.m.";
 const EVENT_VENUE_TEXT = "ROOT Cove (2.311A) @ SUTD Campus";
-const REGISTER_URL = "[Registation URL not released yet]";
+const REGISTER_URL = "https://forms.cloud.microsoft/r/yXzHmMpCRh";
 const LOCATION = {
     image: "/images/location/Location-image.jpg",
     name: "ROOT Cove (2.311A)",
@@ -1863,29 +1845,29 @@ const POSTERS = [
 ];
 const PRIZES = [
     {
-        image: "/images/prizes/[prize-1].jpg",
+        image: "/images/prizes/prize1.jpeg",
         alt: "[Prize image 1 description]",
-        title: "[Prize 1 title]",
-        detail: "[Prize 1 description]"
+        title: "SNACKS!",
+        detail: "Mamee Monster and Corntoz!"
     },
     {
-        image: "/images/prizes/[prize-2].jpg",
+        image: "/images/prizes/prize2.jpg",
         alt: "[Prize image 2 description]",
-        title: "[Prize 2 title]",
-        detail: "[Prize 2 description]"
+        title: "DRINKS!",
+        detail: "Green/Chrysanthemum Tea!"
     },
     {
-        image: "/images/prizes/[prize-3].jpg",
+        image: "/images/prizes/prize3.jpg",
         alt: "[Prize image 3 description]",
-        title: "[Prize 3 title]",
-        detail: "[Prize 3 description]"
+        title: "MORE SNACKS!",
+        detail: "Twisties and Double Decker!"
     }
 ];
 const EXCLUSIVE_PRIZE = {
-    image: "/images/prizes/[exclusive-prize].jpg",
+    image: "/images/prizes/Exprize.jpg",
     alt: "[Exclusive prize image description]",
-    title: "[Exclusive prize title]",
-    condition: "[Condition required to win the exclusive prize]"
+    title: "PRIZE REWARD",
+    condition: "Participate in at least 2 stations to claim a SWEET EXCLUSIVE prize!"
 };
 const BOOTHS = [
     {

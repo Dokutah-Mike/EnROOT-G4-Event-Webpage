@@ -32,7 +32,7 @@ export const EVENT_TIME_TEXT = "3:00p.m. - 6:00p.m.";
 export const EVENT_VENUE_TEXT = "ROOT Cove (2.311A) @ SUTD Campus";
 
 // Where the "Register now" button goes. Replace "#" with your sign-up link.
-export const REGISTER_URL = "[Registation URL not released yet]";
+export const REGISTER_URL = "https://forms.cloud.microsoft/r/yXzHmMpCRh";
 
 
 
@@ -66,30 +66,30 @@ export const POSTERS = [
 // ---------- Prize image panel ----------
 export const PRIZES = [
   {
-    image: "/images/prizes/[prize-1].jpg",
+    image: "/images/prizes/prize1.jpeg",
     alt: "[Prize image 1 description]",
-    title: "[Prize 1 title]",
-    detail: "[Prize 1 description]",
+    title: "SNACKS!",
+    detail: "Mamee Monster and Corntoz!",
   },
   {
-    image: "/images/prizes/[prize-2].jpg",
+    image: "/images/prizes/prize2.jpg",
     alt: "[Prize image 2 description]",
-    title: "[Prize 2 title]",
-    detail: "[Prize 2 description]",
+    title: "DRINKS!",
+    detail: "Green/Chrysanthemum Tea!",
   },
   {
-    image: "/images/prizes/[prize-3].jpg",
+    image: "/images/prizes/prize3.jpg",
     alt: "[Prize image 3 description]",
-    title: "[Prize 3 title]",
-    detail: "[Prize 3 description]",
+    title: "MORE SNACKS!",
+    detail: "Twisties and Double Decker!",
   },
 ];
 
 export const EXCLUSIVE_PRIZE = {
-  image: "/images/prizes/[exclusive-prize].jpg",
+  image: "/images/prizes/Exprize.jpg",
   alt: "[Exclusive prize image description]",
-  title: "[Exclusive prize title]",
-  condition: "[Condition required to win the exclusive prize]",
+  title: "PRIZE REWARD",
+  condition: "Participate in at least 2 stations to claim a SWEET EXCLUSIVE prize!",
 };
 
 // ---------- Booths (exactly 5 placeholders) ----------

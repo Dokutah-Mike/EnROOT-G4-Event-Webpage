@@ -270,7 +270,7 @@ export default function HomeTab({ onNavigate }: { onNavigate: (tab: TabId) => vo
       <section>
         <h2 className="flex items-center gap-3 font-display text-3xl sm:text-4xl">
           <Trophy className="h-7 w-7 text-moss" aria-hidden="true" />
-          [Prizes section title]
+          Food and Rewards!
         </h2>
 
         {/* Image display panel */}
@@ -311,9 +311,6 @@ export default function HomeTab({ onNavigate }: { onNavigate: (tab: TabId) => vo
           </div>
 
           <div>
-            <p className="text-sm uppercase tracking-wide text-sage">
-              [Exclusive prize label]
-            </p>
             <h3 className="mt-1 font-display text-2xl">
               {EXCLUSIVE_PRIZE.title}
             </h3>
@@ -328,7 +325,7 @@ export default function HomeTab({ onNavigate }: { onNavigate: (tab: TabId) => vo
       <section className="flex flex-col items-center gap-8 rounded-[2rem] bg-pine p-8 text-center text-mist sm:flex-row sm:p-12 sm:text-left">
         <div className="flex-1">
           <h2 className="font-display text-3xl sm:text-4xl">Ready to join us?</h2>
-          <p className="mt-3 text-sage">[Short sign-up message, e.g. deadline or how to register]</p>
+          <p className="mt-3 text-sage">Please scan the QR to help us guage numbers! :D</p>
           <a
             href={REGISTER_URL}
             className="mt-6 inline-block rounded-full bg-mist px-8 py-3 text-pine transition hover:bg-peach focus:outline-none focus-visible:ring-2 focus-visible:ring-sage focus-visible:ring-offset-2 focus-visible:ring-offset-pine"
@@ -337,14 +334,15 @@ export default function HomeTab({ onNavigate }: { onNavigate: (tab: TabId) => vo
           </a>
         </div>
 
-        {/* QR code placeholder: replace with an <Image> of the real QR code */}
-        <div
-          className="flex h-40 w-40 shrink-0 flex-col items-center justify-center gap-2 rounded-2xl bg-mist text-pine"
-          role="img"
-          aria-label="Placeholder for registration QR code"
-        >
-          <QrCode className="h-14 w-14" aria-hidden="true" />
-          <span className="text-xs">[QR code]</span>
+        {/* Registration QR Code */}
+        <div className="relative h-40 w-40 shrink-0 overflow-hidden rounded-2xl bg-white p-2">
+          <Image
+            src="/images/regQR.png"
+            alt="Scan QR code to register for the event"
+            fill
+            className="object-contain p-2"
+            sizes="160px"
+          />
         </div>
       </section>
     </div>
