@@ -2,10 +2,15 @@
 // The "Main page" tab: hero with countdown, quick event info, description,
 // speakers, prizes and the register call-to-action.
 // This component has no state of its own, so it needs no "use client".
+"use client";
 
 import { CalendarDays, Clock, MapPin, Trophy, QrCode } from "lucide-react";
 import Countdown from "@/components/Countdown";
 import ImagePlaceholder from "@/components/ImagePlaceholder";
+
+import { createPortal } from "react-dom";
+
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import {
   EVENT_NAME,
@@ -30,6 +35,41 @@ export default function HomeTab({ onNavigate }: { onNavigate: (tab: TabId) => vo
     { icon: Clock, label: "Time", value: EVENT_TIME_TEXT },
     { icon: MapPin, label: "Venue", value: EVENT_VENUE_TEXT },
   ];
+
+  const [selectedPoster, setSelectedPoster] =
+  useState<(typeof POSTERS)[number] | null>(null);
+
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // Prevent background scrolling while poster is open
+  useEffect(() => {
+    if (!selectedPoster) return;
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+
+    // Close when Escape is pressed
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setSelectedPoster(null);
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [selectedPoster]);
+
+
+
+
 
   return (
     <div className="space-y-16 sm:space-y-24">
@@ -88,10 +128,25 @@ export default function HomeTab({ onNavigate }: { onNavigate: (tab: TabId) => vo
 
       {/* ================= ABOUT ================= */}
       <section className="grid items-center gap-8 md:grid-cols-2">
-        <ImagePlaceholder label="Event photo" className="aspect-[4/3] rounded-[2rem]" />
+        <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem]">
+          <Image
+            src="/images/About-image.jpeg"
+            alt="About the event"
+            fill
+            priority
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, 50vw"
+          />
+        </div>
+
         <div>
-          <h2 className="font-display text-3xl sm:text-4xl">About the event</h2>
-          <p className="mt-4 max-w-prose leading-relaxed text-moss">{EVENT_DESCRIPTION}</p>
+          <h2 className="font-display text-3xl sm:text-4xl">
+            About the event
+          </h2>
+
+          <p className="mt-4 max-w-prose leading-relaxed text-moss">
+            {EVENT_DESCRIPTION}
+          </p>
         </div>
       </section>
 
@@ -138,32 +193,78 @@ export default function HomeTab({ onNavigate }: { onNavigate: (tab: TabId) => vo
           </div>
         </div>
       </section>
+      
 
+            
+      
       {/* ================= POSTERS ================= */}
       <section>
         <h2 className="font-display text-3xl sm:text-4xl">
-          [Posters section title]
+          Event Posters
         </h2>
 
-        <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {POSTERS.map((poster) => (
-            <div
+            <button
               key={poster.id}
-              className="overflow-hidden rounded-3xl bg-white/70 shadow-sm"
+              type="button"
+              onClick={() => setSelectedPoster(poster)}
+              className="group overflow-hidden rounded-3xl bg-white/70 shadow-sm"
             >
-              <div className="relative aspect-[3/4]">
+              <div className="relative aspect-[3/4] w-full">
                 <Image
                   src={poster.image}
                   alt={poster.alt}
                   fill
-                  className="object-cover"
+                  className="object-contain transition-transform duration-300 group-hover:scale-105"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
               </div>
-            </div>
+            </button>
           ))}
         </div>
       </section>
+            
+      
+      
+      {/* ================= POSTER LIGHTBOX ================= */}
+      {mounted && selectedPoster &&
+        createPortal(
+          <div
+            className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/70 p-3 sm:p-6"
+            onClick={() => setSelectedPoster(null)}
+          >
+            {/* Poster container */}
+            <div
+              className="relative"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="relative aspect-[2/3] w-[min(92vw,61.33dvh)] overflow-hidden rounded-xl shadow-2xl">
+                <Image
+                  src={selectedPoster.image}
+                  alt={selectedPoster.alt}
+                  fill
+                  priority
+                  sizes="92vw"
+                  className="object-contain"
+                />
+              </div>
+
+              {/* Close button */}
+              <button
+                type="button"
+                onClick={() => setSelectedPoster(null)}
+                className="absolute -right-3 -top-3 z-20 flex h-10 w-10 items-center justify-center rounded-full bg-white text-xl font-bold text-black shadow-lg hover:bg-gray-200"
+                aria-label="Close poster preview"
+              >
+                ×
+              </button>
+            </div>
+          </div>,
+          document.body
+        )
+      }
+
 
       {/* ================= PRIZES ================= */}
       <section>

@@ -48,13 +48,18 @@ export const LOCATION = {
 export const POSTERS = [
   {
     id: 1,
-    image: "/images/posters/[poster-1].jpg",
+    image: "/images/posters/poster1.jpeg",
     alt: "[Poster 1 description]",
   },
   {
     id: 2,
-    image: "/images/posters/[poster-2].jpg",
+    image: "/images/posters/poster2.jpeg",
     alt: "[Poster 2 description]",
+  },
+  {
+    id: 3,
+    image: "/images/posters/poster3.jpeg",
+    alt: "[Poster 3 description]",
   },
 ];
 
