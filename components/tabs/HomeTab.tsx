@@ -6,7 +6,6 @@
 
 import { CalendarDays, Clock, MapPin, Trophy, QrCode } from "lucide-react";
 import Countdown from "@/components/Countdown";
-import ImagePlaceholder from "@/components/ImagePlaceholder";
 
 import { createPortal } from "react-dom";
 
