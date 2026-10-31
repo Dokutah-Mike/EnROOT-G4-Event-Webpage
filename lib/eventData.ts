@@ -103,10 +103,15 @@ export const BOOTHS = [
 
 // ---------- Organisers ----------
 export const ORGANISERS = [
-  { name: "Kim Seongyong (Mike)", role: "Project Director" },
-  { name: "[Organiser 2 Name]", role: "[Role]" },
-  { name: "[Organiser 3 Name]", role: "[Role]" },
-  { name: "[Organiser 4 Name]", role: "[Role]" },
+  { name: "Kim Seongyong (Mike)", role: "Project Director / Website" },
+  { name: "David Sorkin", role: "Project Director / Station Master" },
+  { name: "Renee Lee Rui Shi", role: "Station Master" },
+  { name: "Tay Mian Yao", role: "Deputy Project Director" },
+  { name: "Phua Xin Yi", role: "Station Master" },
+  { name: "Timothy Chin Kai En", role: "Publicity Coordinator" },
+  { name: "Jevan Yeo Jun Wei", role: "Publicity Coordinator" },
+  { name: "Aravindan Sountharyaa", role: "Station Master" },
+  { name: "Clifford Yau", role: "Finance Coordinator / Station Master" },
 ];
 
 // ---------- Contact / Help ----------
