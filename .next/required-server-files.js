@@ -337,6 +337,7 @@ self.__SERVER_FILES_MANIFEST={
     "configFileName": "next.config.ts",
     "partialPrefetching": true,
     "turbopack": {
+      "root": "/Users/mike/Documents/SUTD/EnROOT/EnROOT-G4-Event-Webpage",
       "rules": {
         "*.css": {
           "loaders": [
@@ -344,8 +345,7 @@ self.__SERVER_FILES_MANIFEST={
           ],
           "as": "*.css"
         }
-      },
-      "root": "/Users/mike/Documents/SUTD/EnROOT/EnROOT-G4-Event-Webpage"
+      }
     },
     "repoRoot": "/Users/mike/Documents/SUTD/EnROOT/EnROOT-G4-Event-Webpage",
     "distDirRoot": ".next"
