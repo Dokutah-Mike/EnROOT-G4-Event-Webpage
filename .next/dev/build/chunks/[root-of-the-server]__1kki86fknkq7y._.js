@@ -7,7 +7,6 @@ __turbopack_context__.s([
     "default",
     ()=>__TURBOPACK__default__export__
 ]);
-// postcss.config.mjs
 // Tells Next.js to process CSS with Tailwind CSS v4.
 const config = {
     plugins: {

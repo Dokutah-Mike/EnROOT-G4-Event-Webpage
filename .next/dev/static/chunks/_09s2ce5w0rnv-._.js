@@ -70,6 +70,8 @@ function Countdown({ targetDate }) {
             value: timeLeft ? pad(timeLeft.seconds) : "--"
         }
     ];
+    // Displays a responsive event countdown showing the remaining time in each unit.
+    // Shows a reminder message if the event date has not yet been configured.
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -84,7 +86,7 @@ function Countdown({ targetDate }) {
                                 children: unit.value
                             }, void 0, false, {
                                 fileName: "[project]/components/Countdown.tsx",
-                                lineNumber: 56,
+                                lineNumber: 58,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -92,18 +94,18 @@ function Countdown({ targetDate }) {
                                 children: unit.label
                             }, void 0, false, {
                                 fileName: "[project]/components/Countdown.tsx",
-                                lineNumber: 57,
+                                lineNumber: 59,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, unit.label, true, {
                         fileName: "[project]/components/Countdown.tsx",
-                        lineNumber: 55,
+                        lineNumber: 57,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/Countdown.tsx",
-                lineNumber: 53,
+                lineNumber: 55,
                 columnNumber: 7
             }, this),
             !hasDate && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -111,13 +113,13 @@ function Countdown({ targetDate }) {
                 children: "[Event date to be confirmed. Set EVENT_DATE_ISO in lib/eventData.ts]"
             }, void 0, false, {
                 fileName: "[project]/components/Countdown.tsx",
-                lineNumber: 64,
+                lineNumber: 66,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Countdown.tsx",
-        lineNumber: 52,
+        lineNumber: 54,
         columnNumber: 5
     }, this);
 }
@@ -141,6 +143,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 // Top navigation bar. Shows tab buttons on wide screens and a hamburger
 // menu on phones. It does not decide which tab is active; it receives that
 // from SiteShell and tells SiteShell when a tab is clicked.
+// Imports React state management and icons for the navigation menu.
+// Also imports tab information, the event name, and the TabId TypeScript type.
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/menu.mjs [app-client] (ecmascript) <export default as Menu>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/x.mjs [app-client] (ecmascript) <export default as X>");
@@ -184,14 +188,14 @@ function Navbar({ activeTab, onTabChange }) {
                                 "aria-hidden": "true"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 42,
+                                lineNumber: 44,
                                 columnNumber: 11
                             }, this),
                             __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EVENT_NAME"]
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 37,
+                        lineNumber: 39,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -205,17 +209,17 @@ function Navbar({ activeTab, onTabChange }) {
                                     children: tab.label
                                 }, void 0, false, {
                                     fileName: "[project]/components/Navbar.tsx",
-                                    lineNumber: 50,
+                                    lineNumber: 52,
                                     columnNumber: 15
                                 }, this)
                             }, tab.id, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 49,
+                                lineNumber: 51,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 47,
+                        lineNumber: 49,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -228,24 +232,24 @@ function Navbar({ activeTab, onTabChange }) {
                             className: "h-6 w-6"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 70,
+                            lineNumber: 72,
                             columnNumber: 23
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                             className: "h-6 w-6"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 70,
+                            lineNumber: 72,
                             columnNumber: 51
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 63,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Navbar.tsx",
-                lineNumber: 35,
+                lineNumber: 37,
                 columnNumber: 7
             }, this),
             menuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -259,23 +263,23 @@ function Navbar({ activeTab, onTabChange }) {
                             children: tab.label
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 79,
+                            lineNumber: 81,
                             columnNumber: 15
                         }, this)
                     }, tab.id, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 78,
+                        lineNumber: 80,
                         columnNumber: 13
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/Navbar.tsx",
-                lineNumber: 76,
+                lineNumber: 78,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Navbar.tsx",
-        lineNumber: 34,
+        lineNumber: 36,
         columnNumber: 5
     }, this);
 }
@@ -301,6 +305,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 //
 // Tabs are switched with simple React state instead of separate URLs, which
 // keeps this frontend-only project easy to understand.
+//Import all the tabs and navbar
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Navbar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Navbar.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$tabs$2f$HomeTab$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/tabs/HomeTab.tsx [app-client] (ecmascript)");
@@ -330,7 +335,7 @@ function SiteShell() {
                 onTabChange: setActiveTab
             }, void 0, false, {
                 fileName: "[project]/components/SiteShell.tsx",
-                lineNumber: 23,
+                lineNumber: 24,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -340,28 +345,28 @@ function SiteShell() {
                         onNavigate: setActiveTab
                     }, void 0, false, {
                         fileName: "[project]/components/SiteShell.tsx",
-                        lineNumber: 27,
+                        lineNumber: 28,
                         columnNumber: 34
                     }, this),
                     activeTab === "booths" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$tabs$2f$BoothsTab$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/components/SiteShell.tsx",
-                        lineNumber: 28,
+                        lineNumber: 29,
                         columnNumber: 36
                     }, this),
                     activeTab === "organisers" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$tabs$2f$OrganisersTab$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/components/SiteShell.tsx",
-                        lineNumber: 29,
+                        lineNumber: 30,
                         columnNumber: 40
                     }, this),
                     activeTab === "contact" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$tabs$2f$ContactTab$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/components/SiteShell.tsx",
-                        lineNumber: 30,
+                        lineNumber: 31,
                         columnNumber: 37
                     }, this)
                 ]
             }, activeTab, true, {
                 fileName: "[project]/components/SiteShell.tsx",
-                lineNumber: 26,
+                lineNumber: 27,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -374,13 +379,13 @@ function SiteShell() {
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/SiteShell.tsx",
-                lineNumber: 33,
+                lineNumber: 34,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/SiteShell.tsx",
-        lineNumber: 22,
+        lineNumber: 23,
         columnNumber: 5
     }, this);
 }
@@ -413,6 +418,7 @@ var _s = __turbopack_context__.k.signature();
 "use client";
 ;
 ;
+// Control intro timing: changed to longer intro
 const SHOW_TIME_MS = 4000; // how long the circle shows before opening
 const OPEN_TIME_MS = 1400; // how long the sliding animation takes
 function SplashIntro() {
@@ -450,14 +456,14 @@ function SplashIntro() {
                 className: `absolute inset-y-0 left-0 w-1/2 bg-pine transition-transform duration-[1200ms] ease-in-out ${isOpening ? "-translate-x-full" : "translate-x-0"}`
             }, void 0, false, {
                 fileName: "[project]/components/SplashIntro.tsx",
-                lineNumber: 46,
+                lineNumber: 47,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: `absolute inset-y-0 right-0 w-1/2 bg-pine transition-transform duration-[1200ms] ease-in-out ${isOpening ? "translate-x-full" : "translate-x-0"}`
             }, void 0, false, {
                 fileName: "[project]/components/SplashIntro.tsx",
-                lineNumber: 52,
+                lineNumber: 53,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -468,7 +474,7 @@ function SplashIntro() {
                         "aria-hidden": "true"
                     }, void 0, false, {
                         fileName: "[project]/components/SplashIntro.tsx",
-                        lineNumber: 65,
+                        lineNumber: 66,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -478,7 +484,7 @@ function SplashIntro() {
                                 children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EVENT_NAME"]
                             }, void 0, false, {
                                 fileName: "[project]/components/SplashIntro.tsx",
-                                lineNumber: 67,
+                                lineNumber: 68,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -486,19 +492,19 @@ function SplashIntro() {
                                 children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["UNIVERSITY_NAME"]
                             }, void 0, false, {
                                 fileName: "[project]/components/SplashIntro.tsx",
-                                lineNumber: 68,
+                                lineNumber: 69,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/SplashIntro.tsx",
-                        lineNumber: 66,
+                        lineNumber: 67,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/SplashIntro.tsx",
-                lineNumber: 59,
+                lineNumber: 60,
                 columnNumber: 7
             }, this),
             !isOpening && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -508,13 +514,13 @@ function SplashIntro() {
                 children: "Skip Intro"
             }, void 0, false, {
                 fileName: "[project]/components/SplashIntro.tsx",
-                lineNumber: 74,
+                lineNumber: 75,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/SplashIntro.tsx",
-        lineNumber: 44,
+        lineNumber: 45,
         columnNumber: 5
     }, this);
 }
@@ -535,8 +541,9 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 // components/tabs/BoothsTab.tsx
-// The "Event booths" tab. A list of 5 placeholder booths; clicking one shows
+// The "Event booths" tab. A list of 5 booths; clicking one shows
 // its details in a panel. Uses useState to remember the selected booth.
+// Imports React state management, map pin icons, booth data.
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/map-pin.mjs [app-client] (ecmascript) <export default as MapPin>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$image$2d$component$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__Image__as__default$3e$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/image-component.js [app-client] (ecmascript) <export Image as default>");
@@ -561,7 +568,7 @@ function BoothsTab() {
                 children: "Event booths"
             }, void 0, false, {
                 fileName: "[project]/components/tabs/BoothsTab.tsx",
-                lineNumber: 20,
+                lineNumber: 21,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -569,7 +576,7 @@ function BoothsTab() {
                 children: "Explore the event booths below. Click on a booth to see its details"
             }, void 0, false, {
                 fileName: "[project]/components/tabs/BoothsTab.tsx",
-                lineNumber: 21,
+                lineNumber: 22,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -588,12 +595,12 @@ function BoothsTab() {
                                 children: b.name
                             }, b.id, false, {
                                 fileName: "[project]/components/tabs/BoothsTab.tsx",
-                                lineNumber: 29,
+                                lineNumber: 30,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/tabs/BoothsTab.tsx",
-                        lineNumber: 27,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
@@ -610,12 +617,12 @@ function BoothsTab() {
                                     sizes: "(max-width: 768px) 100vw, 70vw"
                                 }, void 0, false, {
                                     fileName: "[project]/components/tabs/BoothsTab.tsx",
-                                    lineNumber: 47,
+                                    lineNumber: 48,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/BoothsTab.tsx",
-                                lineNumber: 46,
+                                lineNumber: 47,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -626,7 +633,7 @@ function BoothsTab() {
                                         children: booth.name
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/BoothsTab.tsx",
-                                        lineNumber: 56,
+                                        lineNumber: 57,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -637,14 +644,14 @@ function BoothsTab() {
                                                 "aria-hidden": "true"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/tabs/BoothsTab.tsx",
-                                                lineNumber: 58,
+                                                lineNumber: 59,
                                                 columnNumber: 15
                                             }, this),
                                             booth.location
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/tabs/BoothsTab.tsx",
-                                        lineNumber: 57,
+                                        lineNumber: 58,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -652,31 +659,31 @@ function BoothsTab() {
                                         children: booth.description
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/BoothsTab.tsx",
-                                        lineNumber: 61,
+                                        lineNumber: 62,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/tabs/BoothsTab.tsx",
-                                lineNumber: 55,
+                                lineNumber: 56,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/tabs/BoothsTab.tsx",
-                        lineNumber: 45,
+                        lineNumber: 46,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/tabs/BoothsTab.tsx",
-                lineNumber: 25,
+                lineNumber: 26,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/tabs/BoothsTab.tsx",
-        lineNumber: 19,
+        lineNumber: 20,
         columnNumber: 5
     }, this);
 }
@@ -701,6 +708,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 //
 // The accordion uses the browser's built-in <details>/<summary> elements,
 // so it opens and closes with no JavaScript or React state at all.
+// Imports icons, dropdown menu functions, contact details and FAQs
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/mail.mjs [app-client] (ecmascript) <export default as Mail>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/phone.mjs [app-client] (ecmascript) <export default as Phone>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/chevron-down.mjs [app-client] (ecmascript) <export default as ChevronDown>");
@@ -729,7 +737,7 @@ function ContactTab() {
                 children: "Contact / Help"
             }, void 0, false, {
                 fileName: "[project]/components/tabs/ContactTab.tsx",
-                lineNumber: 19,
+                lineNumber: 20,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -737,7 +745,7 @@ function ContactTab() {
                 children: "If you have any questions or need assistance, feel free to reach out to us via email or Telegram."
             }, void 0, false, {
                 fileName: "[project]/components/tabs/ContactTab.tsx",
-                lineNumber: 20,
+                lineNumber: 21,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -752,12 +760,12 @@ function ContactTab() {
                                     "aria-hidden": "true"
                                 }, void 0, false, {
                                     fileName: "[project]/components/tabs/ContactTab.tsx",
-                                    lineNumber: 29,
+                                    lineNumber: 30,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/ContactTab.tsx",
-                                lineNumber: 28,
+                                lineNumber: 29,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -768,7 +776,7 @@ function ContactTab() {
                                         children: label
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/ContactTab.tsx",
-                                        lineNumber: 32,
+                                        lineNumber: 33,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -776,24 +784,24 @@ function ContactTab() {
                                         children: value
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/ContactTab.tsx",
-                                        lineNumber: 33,
+                                        lineNumber: 34,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/tabs/ContactTab.tsx",
-                                lineNumber: 31,
+                                lineNumber: 32,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, label, true, {
                         fileName: "[project]/components/tabs/ContactTab.tsx",
-                        lineNumber: 27,
+                        lineNumber: 28,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/tabs/ContactTab.tsx",
-                lineNumber: 25,
+                lineNumber: 26,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -801,7 +809,7 @@ function ContactTab() {
                 children: "Frequently asked questions"
             }, void 0, false, {
                 fileName: "[project]/components/tabs/ContactTab.tsx",
-                lineNumber: 40,
+                lineNumber: 41,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -819,13 +827,13 @@ function ContactTab() {
                                         "aria-hidden": "true"
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/ContactTab.tsx",
-                                        lineNumber: 47,
+                                        lineNumber: 48,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/tabs/ContactTab.tsx",
-                                lineNumber: 45,
+                                lineNumber: 46,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -833,24 +841,24 @@ function ContactTab() {
                                 children: faq.answer
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/ContactTab.tsx",
-                                lineNumber: 49,
+                                lineNumber: 50,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, index, true, {
                         fileName: "[project]/components/tabs/ContactTab.tsx",
-                        lineNumber: 44,
+                        lineNumber: 45,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/tabs/ContactTab.tsx",
-                lineNumber: 41,
+                lineNumber: 42,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/tabs/ContactTab.tsx",
-        lineNumber: 18,
+        lineNumber: 19,
         columnNumber: 5
     }, this);
 }
@@ -869,6 +877,8 @@ __turbopack_context__.s([
     ()=>HomeTab
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+// Imports icons for event details, countdown functionality, and QR code display.
+// Imports React hooks, portal rendering, and Next.js image.
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2d$days$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CalendarDays$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/calendar-days.mjs [app-client] (ecmascript) <export default as CalendarDays>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/clock.mjs [app-client] (ecmascript) <export default as Clock>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/map-pin.mjs [app-client] (ecmascript) <export default as MapPin>");
@@ -877,6 +887,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Countdown$2e$t
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$dom$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react-dom/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$image$2d$component$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__Image__as__default$3e$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/image-component.js [app-client] (ecmascript) <export Image as default>");
+//Import all the event data from eventData.ts
 var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/eventData.ts [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
@@ -957,27 +968,27 @@ function HomeTab({ onNavigate }) {
                                 className: "breathe absolute left-1/2 top-1/2 h-[26rem] w-[26rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-lagoon blur-3xl sm:h-[34rem] sm:w-[34rem]"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 79,
+                                lineNumber: 82,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "breathe absolute -left-10 top-4 h-48 w-48 rounded-full bg-lavender blur-3xl"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 80,
+                                lineNumber: 83,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "breathe absolute -right-10 bottom-4 h-48 w-48 rounded-full bg-peach blur-3xl"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 81,
+                                lineNumber: 84,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 78,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -985,7 +996,7 @@ function HomeTab({ onNavigate }) {
                         children: "Midterms are over. Time to unwind."
                     }, void 0, false, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 84,
+                        lineNumber: 87,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -993,7 +1004,7 @@ function HomeTab({ onNavigate }) {
                         children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EVENT_NAME"]
                     }, void 0, false, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 85,
+                        lineNumber: 88,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1001,7 +1012,7 @@ function HomeTab({ onNavigate }) {
                         children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EVENT_TAGLINE"]
                     }, void 0, false, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 88,
+                        lineNumber: 91,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1010,12 +1021,12 @@ function HomeTab({ onNavigate }) {
                             targetDate: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EVENT_DATE_ISO"]
                         }, void 0, false, {
                             fileName: "[project]/components/tabs/HomeTab.tsx",
-                            lineNumber: 92,
+                            lineNumber: 95,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 91,
+                        lineNumber: 94,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1027,7 +1038,7 @@ function HomeTab({ onNavigate }) {
                                 children: "Register now"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 97,
+                                lineNumber: 100,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1037,19 +1048,19 @@ function HomeTab({ onNavigate }) {
                                 children: "Explore booths"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 103,
+                                lineNumber: 106,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 96,
+                        lineNumber: 99,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                lineNumber: 76,
+                lineNumber: 79,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1065,12 +1076,12 @@ function HomeTab({ onNavigate }) {
                                     "aria-hidden": "true"
                                 }, void 0, false, {
                                     fileName: "[project]/components/tabs/HomeTab.tsx",
-                                    lineNumber: 118,
+                                    lineNumber: 121,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 117,
+                                lineNumber: 120,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1080,7 +1091,7 @@ function HomeTab({ onNavigate }) {
                                         children: label
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 121,
+                                        lineNumber: 124,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1088,24 +1099,24 @@ function HomeTab({ onNavigate }) {
                                         children: value
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 122,
+                                        lineNumber: 125,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 120,
+                                lineNumber: 123,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, label, true, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 116,
+                        lineNumber: 119,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                lineNumber: 114,
+                lineNumber: 117,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1122,12 +1133,12 @@ function HomeTab({ onNavigate }) {
                             sizes: "(max-width: 768px) 100vw, 50vw"
                         }, void 0, false, {
                             fileName: "[project]/components/tabs/HomeTab.tsx",
-                            lineNumber: 131,
+                            lineNumber: 134,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 130,
+                        lineNumber: 133,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1137,7 +1148,7 @@ function HomeTab({ onNavigate }) {
                                 children: "About the event"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 142,
+                                lineNumber: 145,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1145,19 +1156,19 @@ function HomeTab({ onNavigate }) {
                                 children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EVENT_DESCRIPTION"]
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 146,
+                                lineNumber: 149,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 141,
+                        lineNumber: 144,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                lineNumber: 129,
+                lineNumber: 132,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1167,7 +1178,7 @@ function HomeTab({ onNavigate }) {
                         children: "Location"
                     }, void 0, false, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 154,
+                        lineNumber: 157,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1183,12 +1194,12 @@ function HomeTab({ onNavigate }) {
                                     sizes: "(max-width: 768px) 100vw, 50vw"
                                 }, void 0, false, {
                                     fileName: "[project]/components/tabs/HomeTab.tsx",
-                                    lineNumber: 160,
+                                    lineNumber: 163,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 159,
+                                lineNumber: 162,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1199,7 +1210,7 @@ function HomeTab({ onNavigate }) {
                                         children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["LOCATION"].name
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 170,
+                                        lineNumber: 173,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1207,7 +1218,7 @@ function HomeTab({ onNavigate }) {
                                         children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["LOCATION"].description
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 171,
+                                        lineNumber: 174,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1225,19 +1236,19 @@ function HomeTab({ onNavigate }) {
                                                     type: "video/mp4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/tabs/HomeTab.tsx",
-                                                    lineNumber: 184,
+                                                    lineNumber: 187,
                                                     columnNumber: 17
                                                 }, this),
                                                 "Your browser does not support the video tag."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/tabs/HomeTab.tsx",
-                                            lineNumber: 176,
+                                            lineNumber: 179,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 175,
+                                        lineNumber: 178,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1245,25 +1256,25 @@ function HomeTab({ onNavigate }) {
                                         children: "Video tutorial on how to get to ROOT Cove"
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 189,
+                                        lineNumber: 192,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 169,
+                                lineNumber: 172,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 158,
+                        lineNumber: 161,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                lineNumber: 153,
+                lineNumber: 156,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1273,7 +1284,7 @@ function HomeTab({ onNavigate }) {
                         children: "Event Posters"
                     }, void 0, false, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 201,
+                        lineNumber: 204,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1292,28 +1303,28 @@ function HomeTab({ onNavigate }) {
                                         sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 214,
+                                        lineNumber: 217,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/tabs/HomeTab.tsx",
-                                    lineNumber: 213,
+                                    lineNumber: 216,
                                     columnNumber: 15
                                 }, this)
                             }, poster.id, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 207,
+                                lineNumber: 210,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 205,
+                        lineNumber: 208,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                lineNumber: 200,
+                lineNumber: 203,
                 columnNumber: 7
             }, this),
             mounted && selectedPoster && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$dom$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createPortal"])(/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1334,12 +1345,12 @@ function HomeTab({ onNavigate }) {
                                 className: "object-contain"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 242,
+                                lineNumber: 245,
                                 columnNumber: 17
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/tabs/HomeTab.tsx",
-                            lineNumber: 241,
+                            lineNumber: 244,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1350,18 +1361,18 @@ function HomeTab({ onNavigate }) {
                             children: "×"
                         }, void 0, false, {
                             fileName: "[project]/components/tabs/HomeTab.tsx",
-                            lineNumber: 253,
+                            lineNumber: 256,
                             columnNumber: 15
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/tabs/HomeTab.tsx",
-                    lineNumber: 237,
+                    lineNumber: 240,
                     columnNumber: 13
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                lineNumber: 232,
+                lineNumber: 235,
                 columnNumber: 11
             }, this), document.body),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1374,14 +1385,14 @@ function HomeTab({ onNavigate }) {
                                 "aria-hidden": "true"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 271,
+                                lineNumber: 274,
                                 columnNumber: 11
                             }, this),
                             "Food and Rewards!"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 270,
+                        lineNumber: 273,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1399,12 +1410,12 @@ function HomeTab({ onNavigate }) {
                                             sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                                         }, void 0, false, {
                                             fileName: "[project]/components/tabs/HomeTab.tsx",
-                                            lineNumber: 283,
+                                            lineNumber: 286,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 282,
+                                        lineNumber: 285,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1415,7 +1426,7 @@ function HomeTab({ onNavigate }) {
                                                 children: prize.title
                                             }, void 0, false, {
                                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                                lineNumber: 293,
+                                                lineNumber: 296,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1423,24 +1434,24 @@ function HomeTab({ onNavigate }) {
                                                 children: prize.detail
                                             }, void 0, false, {
                                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                                lineNumber: 294,
+                                                lineNumber: 297,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 292,
+                                        lineNumber: 295,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, prize.image, true, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 278,
+                                lineNumber: 281,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 276,
+                        lineNumber: 279,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1456,12 +1467,12 @@ function HomeTab({ onNavigate }) {
                                     sizes: "160px"
                                 }, void 0, false, {
                                     fileName: "[project]/components/tabs/HomeTab.tsx",
-                                    lineNumber: 303,
+                                    lineNumber: 306,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 302,
+                                lineNumber: 305,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1471,7 +1482,7 @@ function HomeTab({ onNavigate }) {
                                         children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EXCLUSIVE_PRIZE"].title
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 313,
+                                        lineNumber: 316,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1479,25 +1490,25 @@ function HomeTab({ onNavigate }) {
                                         children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["EXCLUSIVE_PRIZE"].condition
                                     }, void 0, false, {
                                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                                        lineNumber: 316,
+                                        lineNumber: 319,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 312,
+                                lineNumber: 315,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 301,
+                        lineNumber: 304,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                lineNumber: 269,
+                lineNumber: 272,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1511,7 +1522,7 @@ function HomeTab({ onNavigate }) {
                                 children: "Ready to join us?"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 326,
+                                lineNumber: 329,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1519,7 +1530,7 @@ function HomeTab({ onNavigate }) {
                                 children: "Please scan the QR to help us guage numbers! :D"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 327,
+                                lineNumber: 330,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1528,13 +1539,13 @@ function HomeTab({ onNavigate }) {
                                 children: "Register now"
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                                lineNumber: 328,
+                                lineNumber: 331,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 325,
+                        lineNumber: 328,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1547,24 +1558,24 @@ function HomeTab({ onNavigate }) {
                             sizes: "160px"
                         }, void 0, false, {
                             fileName: "[project]/components/tabs/HomeTab.tsx",
-                            lineNumber: 338,
+                            lineNumber: 341,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/tabs/HomeTab.tsx",
-                        lineNumber: 337,
+                        lineNumber: 340,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/tabs/HomeTab.tsx",
-                lineNumber: 324,
+                lineNumber: 327,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/tabs/HomeTab.tsx",
-        lineNumber: 74,
+        lineNumber: 77,
         columnNumber: 5
     }, this);
 }
@@ -1585,7 +1596,7 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 // components/tabs/OrganisersTab.tsx
-// The "Organisers" tab: a responsive grid of placeholder organiser cards.
+// The "Organisers" tab: a responsive grid of organiser cards.
 var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$eventData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/eventData.ts [app-client] (ecmascript)");
 ;
 ;
@@ -1597,7 +1608,7 @@ function OrganisersTab() {
                 children: "Organisers"
             }, void 0, false, {
                 fileName: "[project]/components/tabs/OrganisersTab.tsx",
-                lineNumber: 8,
+                lineNumber: 9,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1608,7 +1619,7 @@ function OrganisersTab() {
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/tabs/OrganisersTab.tsx",
-                lineNumber: 9,
+                lineNumber: 10,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1621,7 +1632,7 @@ function OrganisersTab() {
                                 children: person.name
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/OrganisersTab.tsx",
-                                lineNumber: 18,
+                                lineNumber: 19,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1629,24 +1640,24 @@ function OrganisersTab() {
                                 children: person.role
                             }, void 0, false, {
                                 fileName: "[project]/components/tabs/OrganisersTab.tsx",
-                                lineNumber: 19,
+                                lineNumber: 20,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, index, true, {
                         fileName: "[project]/components/tabs/OrganisersTab.tsx",
-                        lineNumber: 16,
+                        lineNumber: 17,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/tabs/OrganisersTab.tsx",
-                lineNumber: 14,
+                lineNumber: 15,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/tabs/OrganisersTab.tsx",
-        lineNumber: 7,
+        lineNumber: 8,
         columnNumber: 5
     }, this);
 }
@@ -1662,8 +1673,6 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 // lib/eventData.ts
 // ONE PLACE FOR ALL EVENT DETAILS.
-// Everything in square brackets, like "[Event Name]", is a PLACEHOLDER.
-// When you know the real details, edit them here and the whole site updates.
 // ---------- Tabs ----------
 // The ids are used by the navbar and by SiteShell to decide what to show.
 __turbopack_context__.s([
