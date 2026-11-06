@@ -43,6 +43,8 @@ body {
 
 /* "Breathing" effect: slowly grows and shrinks, like a calm breath.
    Used on the intro screen and behind the hero heading. */
+/* Updated to breathe faster and more noticiable, since 
+   initially was too slow to notice in the landing page introduction */
 @keyframes breathe {
   0%, 25%, 50%, 75%, 100% { transform: scale(0.92); opacity: 0.70; }
   12%, 37%, 62%, 87% { transform: scale(1.00); opacity: 1; }
@@ -52,6 +54,7 @@ body {
 }
 
 /* Gentle fade-in used when the user switches tabs. */
+/* For a more gentle transition on user's eyes */
 @keyframes tab-in {
   from { opacity: 0; transform: translateY(8px); }
   to   { opacity: 1; transform: translateY(0); }

@@ -4,6 +4,8 @@
 // This component has no state of its own, so it needs no "use client".
 "use client";
 
+// Imports icons for event details, countdown functionality, and QR code display.
+// Imports React hooks, portal rendering, and Next.js image.
 import { CalendarDays, Clock, MapPin, Trophy, QrCode } from "lucide-react";
 import Countdown from "@/components/Countdown";
 
@@ -11,6 +13,7 @@ import { createPortal } from "react-dom";
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
+//Import all the event data from eventData.ts
 import {
   EVENT_NAME,
   EVENT_TAGLINE,

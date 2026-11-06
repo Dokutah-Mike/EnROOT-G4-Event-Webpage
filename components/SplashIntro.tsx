@@ -15,6 +15,7 @@ import { EVENT_NAME, UNIVERSITY_NAME } from "@/lib/eventData";
 //   "done"    -> intro is finished and removed from the page
 type Phase = "intro" | "opening" | "done";
 
+// Control intro timing: changed to longer intro
 const SHOW_TIME_MS = 4000; // how long the circle shows before opening
 const OPEN_TIME_MS = 1400; // how long the sliding animation takes
 

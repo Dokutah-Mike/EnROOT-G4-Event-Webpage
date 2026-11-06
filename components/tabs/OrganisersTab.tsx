@@ -1,7 +1,8 @@
 // components/tabs/OrganisersTab.tsx
-// The "Organisers" tab: a responsive grid of placeholder organiser cards.
+// The "Organisers" tab: a responsive grid of organiser cards.
 import { ORGANISERS, UNIVERSITY_NAME } from "@/lib/eventData";
 
+//Display all the organisers in a grid format, import from eventData.ts
 export default function OrganisersTab() {
   return (
     <section>

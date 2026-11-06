@@ -1,8 +1,9 @@
 "use client";
 // components/tabs/BoothsTab.tsx
-// The "Event booths" tab. A list of 5 placeholder booths; clicking one shows
+// The "Event booths" tab. A list of 5 booths; clicking one shows
 // its details in a panel. Uses useState to remember the selected booth.
 
+// Imports React state management, map pin icons, booth data.
 import { useState } from "react";
 import { MapPin } from "lucide-react";
 import Image from "next/image";

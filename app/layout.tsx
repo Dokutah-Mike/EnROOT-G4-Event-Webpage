@@ -19,12 +19,13 @@ const dmSans = DM_Sans({
 });
 
 // Text shown in the browser tab and used by search engines.
-// replace the placeholders with the real event name/description.
 export const metadata: Metadata = {
   title: "Surviving Midterms 101: DIY Edition | SUTD",
   description: "A welfare event designed to provide students with an opportunity to unwind and take a break from their daily commitments. Participants can engage in a variety of Arts & Crafts activities or simply relax in our designated space.",
 };
 
+// Defines the root layout shared across all pages of the website.
+// Sets the global fonts, HTML language, and base body styling.
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {

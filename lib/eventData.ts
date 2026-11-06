@@ -1,7 +1,5 @@
 // lib/eventData.ts
 // ONE PLACE FOR ALL EVENT DETAILS.
-// Everything in square brackets, like "[Event Name]", is a PLACEHOLDER.
-// When you know the real details, edit them here and the whole site updates.
 
 // ---------- Tabs ----------
 // The ids are used by the navbar and by SiteShell to decide what to show.
@@ -21,9 +19,7 @@ export const EVENT_DESCRIPTION =
   "A welfare event designed to provide students with an opportunity to unwind and take a break from their daily commitments. Participants can engage in a variety of Arts & Crafts activities or simply relax in our designated space.";
 export const UNIVERSITY_NAME = "SUTD EnROOT Group 4";
 
-// Date used by the countdown. Use ISO format, for example "2026-12-31T18:00:00".
-// Leave it as an empty string "" until the date is confirmed; the countdown
-// will then show placeholder dashes instead of numbers.
+// Date used by the countdown.
 export const EVENT_DATE_ISO = "2026-11-04T15:00:00";
 
 // Human-readable details shown in the info cards.
@@ -92,7 +88,7 @@ export const EXCLUSIVE_PRIZE = {
   condition: "Participate in at least 2 stations to claim a SWEET EXCLUSIVE prize!",
 };
 
-// ---------- Booths (exactly 5 placeholders) ----------
+// ---------- Booths ----------
 export const BOOTHS = [
   { id: 1, name: "DoomScrolling", description: "Participants can casually unwind and browse TikTok or Instagram. Every 30 minutes or so, the station master will run a bingo game.", location: "Level 1", image: "/images/booths/booth1.jpg" },
   { id: 2, name: "Paper Crafts", description: "Participants fold origami shapes and learn how to make pop-up cards. The station master will hand out paper.", location: "Level 1", image: "/images/booths/booth2.jpg" },

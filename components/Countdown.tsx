@@ -48,6 +48,8 @@ export default function Countdown({ targetDate }: { targetDate: string }) {
     { label: "Seconds", value: timeLeft ? pad(timeLeft.seconds) : "--" },
   ];
 
+// Displays a responsive event countdown showing the remaining time in each unit.
+// Shows a reminder message if the event date has not yet been configured.
   return (
     <div>
       <div className="flex items-start justify-center gap-3 sm:gap-6" role="timer" aria-label="Countdown to the event">
@@ -59,7 +61,7 @@ export default function Countdown({ targetDate }: { targetDate: string }) {
         ))}
       </div>
 
-      {/* Reminder for you, the developer. Delete once the date is set. */}
+      
       {!hasDate && (
         <p className="mt-3 text-center text-xs text-moss">
           [Event date to be confirmed. Set EVENT_DATE_ISO in lib/eventData.ts]

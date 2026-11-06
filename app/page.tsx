@@ -5,6 +5,8 @@
 import SplashIntro from "@/components/SplashIntro";
 import SiteShell from "@/components/SiteShell";
 
+// Defines the main homepage component and its overall structure.
+// Displays the splash intro animation followed by the main website layout.
 export default function Page() {
   return (
     <>

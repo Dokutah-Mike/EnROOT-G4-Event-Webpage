@@ -4,6 +4,8 @@
 // menu on phones. It does not decide which tab is active; it receives that
 // from SiteShell and tells SiteShell when a tab is clicked.
 
+// Imports React state management and icons for the navigation menu.
+// Also imports tab information, the event name, and the TabId TypeScript type.
 import { useState } from "react";
 import { Menu, X, Leaf } from "lucide-react";
 import { TABS, EVENT_NAME, type TabId } from "@/lib/eventData";

@@ -6,6 +6,7 @@
 // Tabs are switched with simple React state instead of separate URLs, which
 // keeps this frontend-only project easy to understand.
 
+//Import all the tabs and navbar
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import HomeTab from "@/components/tabs/HomeTab";

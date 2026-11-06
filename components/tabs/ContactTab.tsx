@@ -4,6 +4,7 @@
 // The accordion uses the browser's built-in <details>/<summary> elements,
 // so it opens and closes with no JavaScript or React state at all.
 
+// Imports icons, dropdown menu functions, contact details and FAQs
 import { Mail, Phone, AtSign, ChevronDown } from "lucide-react";
 import { CONTACT, FAQS } from "@/lib/eventData";
 
